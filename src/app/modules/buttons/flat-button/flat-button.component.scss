@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    .flat-button {
+        cursor: pointer;
+        padding: 10px 20px;
+        background-color: #fff;
+        color: tomato;
+        border: 3px solid tomato;
+        border-radius: 10px;
+    }
+    .social-media-button {
+        cursor: pointer;
+        font-size: 48px;
+        margin-left: 5px;
+        color: #ccc;
+    }
+    .fa-facebook-square:hover {
+        color: #4267b2;
+    }
+    .fa-instagram-square:hover {
+        color: #dd2a7b;
+    }
+    .fa-twitter-square:hover {
+        color: #00acee;
+    }
+    .fa-linkedin:hover {
+        color: #0e76a8;
+    }
+}

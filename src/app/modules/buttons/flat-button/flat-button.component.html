@@ -1,0 +1,11 @@
+<div class="container">
+    <button class="flat-button" (mouseover)="showSocialMediaButtons=true" *ngIf="!showSocialMediaButtons">
+        Share on Social Media
+    </button>
+    <div (mouseout)="showSocialMediaButtons=false" *ngIf="showSocialMediaButtons">
+        <i class="fab fa-facebook-square social-media-button"></i>
+        <i class="fab fa-instagram-square social-media-button"></i>
+        <i class="fab fa-linkedin social-media-button"></i>
+        <i class="fab fa-twitter-square social-media-button"></i>
+    </div>
+</div>
